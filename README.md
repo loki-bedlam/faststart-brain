@@ -21,7 +21,7 @@ git clone https://github.com/loki-bedlam/faststart-brain.git
 cp faststart-brain/template/*.md ~/.openclaw/workspace/
 ```
 
-> The installer **skips existing files** — safe to re-run without overwriting your customizations.
+> The installer overwrites existing files — re-running resets to the template defaults.
 
 ## What's Inside
 

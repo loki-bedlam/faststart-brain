@@ -16,11 +16,7 @@ echo ""
 FILES="SOUL.md IDENTITY.md USER.md TOOLS.md AGENTS.md CLAUDE.md PROJECT-GUIDELINES.md HEARTBEAT.md APP-REGISTRY.md"
 
 for f in $FILES; do
-  if [ -f "$f" ]; then
-    echo "  ⏭️  $f (exists, skipping)"
-  else
-    curl -fsSL "$REPO/$f" -o "$f" && echo "  ✅ $f"
-  fi
+  curl -fsSL "$REPO/$f" -o "$f" && echo "  ✅ $f"
 done
 
 echo ""
