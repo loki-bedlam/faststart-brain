@@ -1,5 +1,5 @@
 #!/bin/bash
-# OpenClaw FastStart Brain — Install template workspace files
+# FastStart Brain — Install template workspace files
 # Usage: curl -fsSL https://raw.githubusercontent.com/loki-bedlam/faststart-brain/main/install.sh | bash
 set -e
 

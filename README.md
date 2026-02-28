@@ -1,6 +1,6 @@
 # 🧠 FastStart Brain
 
-Template brain files for bootstrapping an [OpenClaw](https://github.com/openclaw/openclaw) AI assistant on a fresh AWS account.
+Template brain files for bootstrapping a **FastStart Assistant** on(https://github.com/openclaw/openclaw) AI assistant on a fresh AWS account.
 
 Distilled from real operational experience managing 17+ AWS apps — all account-specific details scrubbed, only patterns, lessons, and templates remain.
 
